@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LoginPage</title>
+	<link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend align="center"><b>LOGIN</b></legend>
+				<label>USERNAME : <sup>*</sup></label>
+				<input type="text" name="um" id="unm" placeholder="Enter your username" autofocus required autocomplete="off">
+				<br><br>
+				<label>PASSWORD : <sup>*</sup></label>
+				<input type="password" name="pass" id="pwd" placeholder="Enter password" required>
+				<br><br>
+				<input type="button" name="lgn" value="LOGIN" onclick="vald()">
+				<input type="button" name="rgt" value="SIGNUP" onclick="regs()">
+				<input type="reset" name="cnl" value="CANCEL">
+				<script type="text/javascript">
+					function regs()
+					{
+						open("SignupPage.html","_self")
+					}
+					function vald()
+					{
+						let unm1="thekjstar"
+						let pwd1="Kartik@123"
+
+						let unm2= document.getElementById("unm").value;
+						let pwd2= document.getElementById("pwd").value;
+
+						if((unm2==unm1)&&(pwd2==pwd1))
+						{
+							open("HomePage.html","_self")
+						}
+						else
+						{
+							alert("Wrong Credentials!!!")
+						}	
+					}
+				</script>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
