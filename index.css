@@ -1,0 +1,239 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.myname{
+	font-weight: bold;
+	font-family: Britannic Bold;
+	font-size: 30px;
+	color: #EEFBFB;
+}
+.mymenu{
+	color: #EEFBFB;
+	font-size: 20px;
+	font-weight: bold;
+}
+.mymenu:hover{
+	color: #007CC7;
+}
+.navbarmain{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	background-color: #12232E;
+}
+
+.maindiv{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.dv{
+	width: 100%;
+	padding-top: 200px;
+}
+.home{
+	background-color: #203647;
+	height: 800px;
+	margin-top: 0px;
+	background-position: 90% 40%;
+	background-repeat: no-repeat;
+	background-image: url("home.gif");
+	background-size: 40%;
+
+}
+.homeinfo{
+	margin-top: 6%;
+	margin-left: 10%;
+}
+.info{
+	font-size: 25px;
+	color: #4DA8DA;
+	font-weight: bold;
+}
+.infoname{
+	font-size: 70px;
+	color:#EEFBFB;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Britannic Bold;
+}
+.infodev{
+	font-size: 20px;
+	color: #4DA8DA;
+	font-weight: bold;
+}
+.btn{
+	margin: 0px;
+}
+.resume button{
+	height: 50px;
+	width: 100px;
+	border: none;
+	background-color: #007CC7;
+	border-radius: 20px;
+	color: #EEFBFB;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.resume button:hover{
+	transform: scale(1.2);
+	transition-duration: 0.4s;
+}
+.headname{
+	color: #4DA8DA;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: -10%;
+	text-shadow: 5px 5px 10px #007CC7;
+}
+.about{
+	background-color: #203647;
+	height: 600px;
+}
+.aboutmain{
+	margin-top: 3%;
+	height: 400px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+td img{
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 45%;
+	border-radius: 200px;
+}
+.ac{
+	font-size: 30px;
+	color: #EEFBFB;
+	text-align: justify;
+}
+.skill{
+	background-color: #203647;
+	height: 600px;
+}
+.skillhead{
+	margin-top: -13%;
+	font-size: 30px;
+	text-align: center;
+	color: #EEFBFB;
+}
+.sc{
+	margin-top: 20%;
+	font-size: 20px;
+	color: #4DA8DA;
+	text-align: center;
+}
+.project{
+	background-color: #203647;
+	height: 700px;
+}
+.phead{
+
+	font-size: 30px;
+	font-weight: bold;
+	color: #EEFBFB;
+}
+.arlifeimg{
+	margin-left: 0%;
+	margin-top: -25%;
+	border-radius: 20px;
+	width: 60%;
+}
+.fdsimg{
+	margin-left: 0%;
+	margin-top: -21%;
+	width: 30%;
+}
+.pc{
+	font-size: 20px;
+	color: #4DA8DA;
+	text-align: justify;
+}
+.contact{
+	background-color: #203647;
+	height: 550px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+form{ 
+	max-width:420px; margin:50px auto; 
+}
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #EEFBFB;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:hover{
+	transform: scale(1.1);
+	transition-duration: 0.4s;
+}
+.feedback-input:focus { border:2px solid #4DA8DA; }
+
+textarea{
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: #007CC7;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: #EEFBFB;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+	transform: scale(1.1);
+	transition-duration: 0.4s;
+ }
+.footer{
+	background-color: #12232E;
+	width: 100%;
+	height: 60px;
+  	color:#4b4c4d;
+}
+.footer .social {
+  text-align:center;
+  padding-top: 10px;
+}
+
+.footer .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer .social > a:hover {
+  opacity:0.9;
+}
+
