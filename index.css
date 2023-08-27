@@ -95,6 +95,7 @@ body{
 .about{
 	background-color: #203647;
 	height: 600px;
+	margin-top: 0px;
 }
 .aboutmain{
 	margin-top: 3%;
@@ -130,6 +131,7 @@ td img{
 	text-align: center;
 }
 .project{
+	margin-top: 0px;
 	background-color: #203647;
 	height: 700px;
 }
@@ -153,9 +155,9 @@ td img{
 .pc{
 	font-size: 20px;
 	color: #4DA8DA;
-	text-align: justify;
 }
 .contact{
+	margin-top: 0px;
 	background-color: #203647;
 	height: 550px;
 }
