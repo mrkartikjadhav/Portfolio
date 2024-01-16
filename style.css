@@ -221,12 +221,12 @@ textarea{
 	height: 60px;
   	color:#4b4c4d;
 }
-.footer .social {
+.footer .fsocial {
   text-align:center;
   padding-top: 10px;
 }
 
-.footer .social > a {
+.footer .fsocial > a {
   font-size:24px;
   width:40px;
   height:40px;
@@ -238,6 +238,6 @@ textarea{
   opacity:0.75;
 }
 
-.footer .social > a:hover {
+.footer .fsocial > a:hover {
   opacity:0.9;
 }
